@@ -1,0 +1,16 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #919191;
+}
+
+
+.introduceText {
+    width: 300px;
+    background-color: #bcbab8;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    background-color: #bcbab8;
+}
