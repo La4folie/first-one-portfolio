@@ -1,0 +1,14 @@
+.about {
+    height: 100vh;
+    background-color: #dadad5;
+}
+.aboutContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title {
+    background-color: #bca99f;
+}
+.text {
+    padding: 20px;
+}

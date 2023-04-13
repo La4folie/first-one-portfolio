@@ -1,0 +1,31 @@
+.resume {
+    height: 100vh;
+    background-color: rgb(217, 215, 213);
+}
+
+.resumeContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.resumeTitle {
+    background-color: #bca99f;
+}
+
+.basicBlock {
+    padding-bottom: 50px;
+}
+
+.underTitle {
+    font-size: 24px;
+
+}
+
+.infoOfCompany {
+    font-size: 14px;
+}
+.photo {
+    height: 410px;
+    width: 770px;
+    background-color: #a5bcb0;
+}
