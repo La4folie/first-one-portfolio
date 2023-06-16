@@ -1,17 +1,20 @@
 import React from 'react';
 import s from './Skill.module.css'
+import cssIcon from '../../images/css.png'
+
 
 type SkillPropsType = {
     title:string
 }
 
-const Skill = (props:SkillPropsType) => {
+const SkillCSS = (props:SkillPropsType) => {
     return (
         <div className={s.skill}>
-            <div className={s.icon}></div>
+            <img src={cssIcon} className={s.icon}
+            alt={'CSS Icon'}></img>
             <p>{props.title}</p>
         </div>
     );
 };
 
-export default Skill;
+export default SkillCSS;

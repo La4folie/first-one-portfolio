@@ -6,8 +6,9 @@ const Nav = () => {
         <div className={s.nav}>
             <a href={""}>Introduce</a>
             <a href={""}>About</a>
-            <a href={""}>Resume</a>
             <a href={""}>Skills</a>
+            <a href={""}>Resume</a>
+            <a href={""}>Portfolio</a>
             <a href={""}>Contact</a>
         </div>
     );

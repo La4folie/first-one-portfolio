@@ -1,16 +1,37 @@
 .mainBlock {
-    height: 70vh;
-    background-color: #919191;
+    height: 75vh;
+    background-color: #1f1f1f;
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
 }
 
 
 .introduceText {
-    width: 300px;
-    background-color: #bcbab8;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    background-color: #1f1f1f;
+    color:#fff;
 }
 
 .photo {
     width: 200px;
     height: 200px;
-    background-color: #bcbab8;
+    background-color: #424242;
+}
+.hIntro {
+    font-size: 60px;
+    letter-spacing: -0.2px;
+    line-height: 90px;
+    margin-bottom: 43px;
+    font-weight: 300;
+}
+.text {
+    color: #999999;
+
+}
+.greenSpan {
+    color: #28e98c;
 }

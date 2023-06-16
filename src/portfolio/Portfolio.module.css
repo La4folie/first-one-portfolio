@@ -1,0 +1,82 @@
+.portfolioBlock {
+    height: 1600px;
+    background-color: #1f1f1f;
+}
+
+.portfolioContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.MyProjectsTitle {
+    background-color: #1f1f1f;
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 33px;
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+}
+
+.wideProjects {
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.shortProjects {
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+
+.iconWide {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    font-family: Inter,sans-serif;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+
+}
+
+.shortModule {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1f1f1f;
+
+}
+
+.iconShort {
+    width: 100%;
+    height: 100%;
+}
+.greenTitle {
+    color: #28e98c;
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 1000px) {
+    .shortProjects {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:584px) {
+    .MyProjectsTitle {
+        font-size: 38px;
+        line-height: 1.4;
+    }
+}

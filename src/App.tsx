@@ -5,6 +5,9 @@ import Main from "./main/Main";
 import Skills from "./skills/Skills";
 import About from "./about/About";
 import Resume from "./resume/Resume";
+import Portfolio from "./portfolio/Portfolio";
+import Contact from "./contact/contact";
+import Footer from "./footer/footer";
 
 const App = () => {
     return (
@@ -14,6 +17,9 @@ const App = () => {
             <About/>
             <Skills/>
             <Resume/>
+            <Portfolio/>
+            <Contact/>
+            <Footer/>
         </div>
     );
 }

@@ -7,9 +7,9 @@ const Main = () => {
         <div className={s.mainBlock}>
             <div className={sc.container}>
                 <div className={s.introduceText}>
-                    <h1>Say Hi from Alex</h1>
-                    <span>I design and code beautifully simple things and i love what i do. Just simple like that!</span>
-                    <p>FrontEnd React Developer</p>
+                    <h1 className={s.hIntro}>Say Hi from <span className={s.greenSpan}>Alex</span></h1>
+                    <span className={s.text}>I design and code beautifully simple things and i love what i do. Just simple like that!</span>
+                    <p className={s.text}>FrontEnd React Developer</p>
                 </div>
                 <div className={s.photo}>
                 </div>

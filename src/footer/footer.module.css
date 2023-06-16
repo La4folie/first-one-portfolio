@@ -1,0 +1,10 @@
+.resume {
+    min-height: 10vh;
+    background-color: #1f1f1f;
+}
+.resumeContainer {
+     flex-direction: column;
+     justify-content: flex-start;
+    color: #fff;
+ }
+

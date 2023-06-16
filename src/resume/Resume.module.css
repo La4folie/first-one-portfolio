@@ -1,6 +1,6 @@
 .resume {
+    background-color: #1f1f1f;
     height: 100vh;
-    background-color: rgb(217, 215, 213);
 }
 
 .resumeContainer {
@@ -9,23 +9,27 @@
 }
 
 .resumeTitle {
-    background-color: #bca99f;
+    background-color: #1f1f1f;
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 33px;
 }
 
 .basicBlock {
-    padding-bottom: 50px;
+    padding-bottom: 15px;
 }
 
 .underTitle {
-    font-size: 24px;
+    color: #fff;
 
 }
 
 .infoOfCompany {
-    font-size: 14px;
+    color: #fff;
 }
-.photo {
-    height: 410px;
-    width: 770px;
-    background-color: #a5bcb0;
+
+.greenSpan {
+    color: #28e98c;
 }

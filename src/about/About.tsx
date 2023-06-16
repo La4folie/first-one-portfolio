@@ -8,7 +8,7 @@ const About = () => {
             <div className={`${sc.container} ${s.aboutContainer}`}>
                 <h2 className={s.title}>
                     Every great design begin with
-                    an even better story
+                    an even <span className={s.greenSpan}>better story</span>
                 </h2>
                 <span className={s.text}>Since beginning my journey as a freelance
                     designer nearly 8 years ago, I've done remote work for agencies,
