@@ -1,6 +1,6 @@
 .resume {
     min-height: 10vh;
-    background-color: #1f1f1f;
+    background: rgba(40, 40, 40, 0.9);
 }
 .resumeContainer {
      flex-direction: column;

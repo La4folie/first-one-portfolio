@@ -1,5 +1,5 @@
 .skillsBlock {
-    background-color: #1f1f1f;
+    background: rgba(40, 40, 40, 0.9);
 }
 
 .skillsContainer {
@@ -7,7 +7,6 @@
     justify-content: flex-start;
 }
 .title {
-    background-color: #1f1f1f;
     font-size: 48px;
     line-height: 60px;
     color: #fff;
@@ -24,4 +23,10 @@
 }
 .greenSpan {
     color: #28e98c;
+}
+@media (max-width:584px) {
+    .title {
+        font-size: 38px;
+        line-height: 1.4;
+    }
 }

@@ -1,9 +1,9 @@
 .mainBlock {
-    height: 75vh;
-    background-color: #1f1f1f;
+    height: 85vh;
     display: flex;
     align-content: stretch;
     justify-content: center;
+    background: rgba(40, 40, 40, 0.9);
 }
 
 
@@ -12,8 +12,8 @@
     flex-direction: column;
     text-align: center;
     margin: 10px;
-    background-color: #1f1f1f;
-    color:#fff;
+    color: #fff;
+
 }
 
 .photo {
@@ -21,6 +21,7 @@
     height: 200px;
     background-color: #424242;
 }
+
 .hIntro {
     font-size: 60px;
     letter-spacing: -0.2px;
@@ -28,10 +29,12 @@
     margin-bottom: 43px;
     font-weight: 300;
 }
+
 .text {
     color: #999999;
 
 }
+
 .greenSpan {
     color: #28e98c;
 }

@@ -1,6 +1,6 @@
 .about {
     height: 80vh;
-    background-color: #1f1f1f;
+    background: rgba(40, 40, 40, 0.9);
 }
 
 .aboutContainer {
@@ -9,7 +9,6 @@
 }
 
 .title {
-    background-color: #1f1f1f;
     color: #fff;
     font-size: 48px;
     line-height: 60px;
@@ -25,4 +24,10 @@
 
 .greenSpan {
     color: #28e98c;
+}
+@media (max-width:584px) {
+    .title {
+        font-size: 38px;
+        line-height: 1.4;
+    }
 }
