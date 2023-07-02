@@ -1,8 +1,10 @@
 .header {
+    border: 1px solid white;
     height: 80px;
     display:flex;
     justify-content: flex-end;
     align-items: center;
     background: rgba(40, 40, 40, 0.9);
+
 
 }
