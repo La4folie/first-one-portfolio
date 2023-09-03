@@ -16,12 +16,6 @@
 
 }
 
-.photo {
-    width: 200px;
-    height: 200px;
-    background-color: #424242;
-}
-
 .hIntro {
     font-size: 60px;
     letter-spacing: -0.2px;
@@ -37,4 +31,45 @@
 
 .greenSpan {
     color: #28e98c;
+}
+.GoToProjects {
+    width: 200px;
+    height: 200px;
+}
+.arrow {
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    width: 40px;
+    height: 40px;
+    opacity: 80%;
+}
+.rounded {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    width: 175px;
+    height: 175px;
+    animation: 6s linear 0s normal none infinite running rounded;
+    -webkit-animation: 6s linear 0s normal none infinite running rounded;
+}
+@keyframes rounded {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rounded {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.imageContainer {
+    position: relative;
+    display: inline-block;
 }

@@ -1,10 +1,11 @@
-.resume {
+.footerBlock {
     min-height: 10vh;
     background: rgba(40, 40, 40, 0.9);
 }
-.resumeContainer {
+.footerContainer {
      flex-direction: column;
      justify-content: flex-start;
-    color: #fff;
  }
-
+.text {
+    color: white;
+}

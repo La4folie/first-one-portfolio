@@ -1,5 +1,6 @@
-.contact {
-    height: 90vh;
+.contactBlock {
+    padding-top: 200px;
+    padding-bottom: 200px;
     background: rgba(40, 40, 40, 0.9);
 
 }
@@ -44,8 +45,16 @@
     height: 20px;
     border-radius: 20px;
     opacity: 0.2;
+    z-index: 5;
 }
-.button {
+.sendingButton {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.sendingButton button {
+    cursor: pointer;
     margin: 20px;
     text-align: center;
     padding: 11px 58px 10px 58px;
@@ -54,4 +63,17 @@
     border-radius: 30px;
     justify-content: center;
     text-transform: uppercase;
+    background: #28e98c;
+    border: 2px solid #28e98c;
+}
+.sendingButton button:hover{
+    background: rgba(40, 40, 40, 0.1);
+    color:#28e98c;
+    opacity: 0.7;
+}
+@media (max-width:584px) {
+    .contactBlock {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }

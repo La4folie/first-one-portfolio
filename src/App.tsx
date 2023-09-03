@@ -8,6 +8,7 @@ import Resume from "./resume/Resume";
 import Portfolio from "./portfolio/Portfolio";
 import Contact from "./contact/contact";
 import Footer from "./footer/footer";
+import Nav from "./nav/Nav";
 
 
 const App = () => {
@@ -16,13 +17,14 @@ const App = () => {
             <video className='bodyOverlay' autoPlay loop muted>
                 <source src={require('./assets/backgroundVideo.mp4')} type='video/mp4' />
             </video>
+            <Nav/>
             <Header/>
-            <Main/>
-            <About/>
-            <Skills/>
-            <Resume/>
-            <Portfolio/>
-            <Contact/>
+            <div id={'homepage'}><Main/></div>
+            <div id={'AboutPart'}><About/></div>
+            <div id={'SkillsPart'}><Skills/></div>
+            <div id={'ResumePart'}><Resume/></div>
+            <div id={'PortfolioPart'}><Portfolio/></div>
+            <div id={'ContactPart'}><Contact/></div>
             <Footer/>
         </div>
     );

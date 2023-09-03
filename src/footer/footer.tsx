@@ -4,9 +4,9 @@ import sc from './../common/styles/Container.module.css';
 
 const Footer = () => {
     return (
-        <div className={s.resume}>
-            <div className={`${sc.container} ${s.resumeContainer}`}>
-            <h4>All rights are reserved</h4>
+        <div className={s.footerBlock}>
+            <div className={`${sc.container} ${s.footerContainer}`}>
+            <h4 className={s.text}>All rights reserved</h4>
             </div>
         </div>
     );
